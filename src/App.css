@@ -1,10 +1,10 @@
 .App {
   text-align: center;
-  background-color: #dedede;
+  background-color: hsl(120, 15%, 85%);
 }
 
 body{
-  background-color: #dedede;
+  background-color: hsl(120, 15%, 85%);
 }
 
 .content{
@@ -44,4 +44,8 @@ body{
   to {
     transform: rotate(360deg);
   }
+}
+
+.page{
+  min-height: 90vh;
 }
