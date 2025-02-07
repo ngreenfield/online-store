@@ -5,11 +5,20 @@
     margin-right: 12px;
     background-color: white;
     width: 280px;
-    height: 320px;
+    height: 360px;
     display: inline-block;
+    padding: 5px;
+    vertical-align: top;
 }
 
 .product h4{
     color: rgb(9, 107, 78);
     text-align: center;
+    margin-top: 5px;
+}
+
+.product img{
+    width: 240px;
+    height: 190px;
+    margin-top: 10px;
 }

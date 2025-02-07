@@ -1,8 +1,17 @@
 .qt-picker button{
     margin-left: 5px;
     margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 3px;
 }
 
 .qt-picker label{
+    margin-top: 5px;
     font-weight: bold;
+}
+
+.picker-btns{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1px;
 }
