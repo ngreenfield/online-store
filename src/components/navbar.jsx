@@ -6,6 +6,7 @@ function Navbar(){
         <div className="App">
             <nav>
                 <div className='navbar-menu'>
+                    <span className='title'>Nature's Pantry</span>
                     <a href="">Login</a>
                     <a href="">Search</a>
                     <a href="">Subscribe</a>

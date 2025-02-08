@@ -1,0 +1,43 @@
+.admin {
+    padding-top: 10x;
+}
+
+.admin h1{
+    color: darkcyan;
+}
+
+.admin .prods,
+.admin .coupons{
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+.admin h5{
+    text-align: center;
+}
+
+.admin label{
+    margin-top: 10px;
+}
+
+.admin .parent{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.admin .prods{
+    width: 500px;
+}
+
+.admin .coupons{
+    width: 500px;
+}
+
+.admin .controls{
+    margin-top: 12px;
+    text-align: center;
+}

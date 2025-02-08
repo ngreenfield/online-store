@@ -1,5 +1,10 @@
+.catalog{
+    margin-top: 25px;
+}
+
 .catalog .filters{
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .catalog .filters button{

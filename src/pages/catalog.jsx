@@ -29,10 +29,32 @@ const catalog = [
         "price": 10.550,
         "category": "fruit",
         "_id": "25134"
-    }
+    },
+    {
+        "title": "Sourdough",
+        "image": "/images/sourdough.jpg",
+        "price": 15.39,
+        "category": "Bread",
+        "_id": "22234"
+    },
+    {
+        "title": "Orange Juice",
+        "image": "/images/orangejuice.jpg",
+        "price": 11.29,
+        "category": "Beverages",
+        "_id": "45534"
+    },
+    {
+        "title": "Broccoli",
+        "image": "/images/broccoli-bg.jpg",
+        "price": 10.99,
+        "category": "vegetable",
+        "_id": "25134" 
+    },
+
 ];
 
-const categories = ["Fruits", "Vegetables", "Beverages", "Dairy"]
+const categories = ["Fruits", "Vegetables", "Beverages", "Bread"]
 
 function Catalog(){
     return(

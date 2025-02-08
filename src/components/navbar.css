@@ -1,21 +1,31 @@
 .navbar-menu{
     padding: 5px;
     display: flex;
-    justify-content: space-around;
     height: 60px;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(44, 90, 51);
 }
 
-a{
-    text-transform: uppercase;
-    font-size: 18px;
-    color:cyan;
+.navbar-menu a{
+    font-size: 17px;
+    color:rgb(35, 202, 147);
     letter-spacing: 1px;
     font-weight: bolder;
     text-decoration: none;
+    margin-right: 24px;
 }
 
 a:hover{
-    color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+.navbar-menu .title{
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 22px;
+    color: rgb(210, 216, 209);
 }
