@@ -13,18 +13,22 @@ function Admin(){
                         <label className="form-label">Title</label>
                         <input type="text" className="form-control" />
                     </div>
+
                     <div>
                         <label className="form-label">Price</label>
                         <input type="number" className="form-control" />
                     </div>
+
                     <div>
                         <label className="form-label">Image</label>
                         <input type="text" className="form-control" />
                     </div>
+
                     <div>
                         <label className="form-label">Category</label>
                         <input type="text" className="form-control" />
                     </div>
+
                     <div className='controls'>
                         <button className='btn btn-sm btn-success'>Save Product</button>
                     </div>
@@ -42,6 +46,7 @@ function Admin(){
                         <label className='form-label'>Discount</label>
                         <input type="number" className='form-control' />
                     </div>
+                    
                     <div className='controls'>
                         <button className='btn btn-sm btn-success'>Save Coupon</button>
                     </div>

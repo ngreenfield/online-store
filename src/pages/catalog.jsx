@@ -51,7 +51,20 @@ const catalog = [
         "category": "vegetable",
         "_id": "25134" 
     },
-
+    {
+        "title": "Vegetable Juice",
+        "image": "/images/green-juice.jpg",
+        "price": 16.99,
+        "category": "Beverages",
+        "_id": "42562" 
+    },
+    {
+        "title": "Whole Wheat Bread",
+        "image": "/images/wheatbread.jpg",
+        "price": 12.59,
+        "category": "Bread",
+        "_id": "452162" 
+    }
 ];
 
 const categories = ["Fruits", "Vegetables", "Beverages", "Bread"]

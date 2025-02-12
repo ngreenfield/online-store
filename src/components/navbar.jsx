@@ -1,5 +1,7 @@
 import './navbar.css';
 
+import { Link } from 'react-router-dom';
+
 
 function Navbar(){
     return (
@@ -7,14 +9,17 @@ function Navbar(){
             <nav>
                 <div className='navbar-menu'>
                     <span className='title'>Nature's Pantry</span>
-                    <a href="">Login</a>
-                    <a href="">Search</a>
-                    <a href="">Subscribe</a>
-                    <a href="">Menu</a>
+                    <Link to="/home">Home</Link>
+                    <Link to="/catalog">Catalog</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/admin">Admin</Link>
+                    <Link className="end" to="/cart">View Cart</Link>
                 </div>
             </nav>
         </div>
     );
 }
+                    
+                    
 
 export default Navbar;

@@ -1,11 +1,8 @@
 .App {
   text-align: center;
-  background-color: hsl(120, 15%, 85%);
 }
 
-body{
-  background-color: hsl(120, 15%, 85%);
-}
+body
 
 .content{
   min-height: calc(100vh - 144.438px);
@@ -47,5 +44,6 @@ body{
 }
 
 .page{
-  min-height: 90vh;
+  min-height: calc(100vh - 130px);
+  background-color: #70b85ec9;
 }

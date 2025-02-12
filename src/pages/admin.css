@@ -1,9 +1,9 @@
 .admin {
-    padding-top: 10x;
+    padding: 20px;
 }
 
 .admin h1{
-    color: darkcyan;
+    color: rgb(44, 90, 51);
 }
 
 .admin .prods,
