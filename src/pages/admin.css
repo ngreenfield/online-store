@@ -8,7 +8,7 @@
 
 .admin .prods,
 .admin .coupons{
-    border: 1px solid grey;
+    border: 1px solid black;
     border-radius: 4px;
     background-color: white;
     padding: 20px;
