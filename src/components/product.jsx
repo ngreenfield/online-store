@@ -1,10 +1,17 @@
+import { useState } from 'react';
 import './product.css'
 import QuantityPicker from './quantityPicker';
 
 function Product(props){
+    const [quantity, setQuantity] = useState(1);
 
     function add(){
         console.log("An item has been added");
+    }
+
+    function handleQuantity(qty){
+        console.log("quantity changed", qty);
+        setQuantity(qty);
     }
     
     return(
@@ -14,11 +21,15 @@ function Product(props){
 
             <h4>{props.data.title}</h4>
 
-            <label>{props.data.price}</label>
+            <div className='prices'>
+                <label className='total'>Total: ${props.data.price * quantity}</label>
+                <label className='price'>Price: ${props.data.price}</label>
+            </div>
 
             <div className='picker-btns'>
-                <QuantityPicker></QuantityPicker>
-                <button className='btn btn-success btn-sm' onClick={add}>Add</button>
+                <QuantityPicker onChange={handleQuantity}></QuantityPicker>
+
+                <button onClick={add} className='btn btn-success btn-sm'><i class="fa-solid fa-cart-plus"></i>  Add to cart</button>
             </div>
         </div>
     )

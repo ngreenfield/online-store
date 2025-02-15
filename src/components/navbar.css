@@ -33,3 +33,9 @@ a:hover{
     font-size: 22px;
     color: rgb(210, 216, 209);
 }
+
+.navbar-menu .nav-user{
+    border: 1px solid rgb(184, 240, 179);
+    border-radius: 4px;
+    padding: 7px;
+}

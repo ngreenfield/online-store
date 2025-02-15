@@ -10,7 +10,7 @@ function Home(){
             </div>
 
             <div className='catalog-btn'>
-                <Link className='btn btn-lg btn-success px-3' to="/catalog">Check out our catalog!</Link>
+                <Link className='btn btn-lg btn-success px-3' to="/catalog">Check out our catalog <i class="fa-solid fa-circle-chevron-right"></i></Link>
             </div>
         </div>
     )

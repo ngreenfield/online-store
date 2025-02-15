@@ -1,10 +1,15 @@
 .footer {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     background-color: rgb(44, 90, 51);
-    padding: 10px;
-    height: 65px;
+    padding: 5px;
+    height: 79px;
     text-align: center;
     font-weight: bolder;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer .i-add {
+    font-size: 22px;
+    padding: 4px;
 }
