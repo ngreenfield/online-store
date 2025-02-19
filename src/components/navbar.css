@@ -39,3 +39,7 @@ a:hover{
     border-radius: 4px;
     padding: 7px;
 }
+
+.navbar-menu .badge{
+    margin-right: 3px;
+}

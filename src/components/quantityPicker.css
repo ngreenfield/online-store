@@ -13,5 +13,6 @@
 .picker-btns{
     display: flex;
     justify-content: space-evenly;
-    padding: 1px;
+    padding: 3px;
+    margin-top: 2px;
 }
