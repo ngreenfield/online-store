@@ -75,10 +75,10 @@ function Catalog(){
             <h1>Check out our fresh produce!</h1>
 
             <div className="filters">
-            { categories.map(cat => <button className="btn btn-sm btn-danger">{cat}</button>)}
+            { categories.map(cat => <button key={cat} className="btn btn-sm btn-danger">{cat}</button>)}
             </div>
 
-            { catalog.map(prod => <Product data={prod}/>)}
+            { catalog.map(prod => <Product key={prod.id} data={prod}/>)}
         </div>
     );
 }

@@ -8,7 +8,7 @@ function Product(props){
     const addProductToCart = useContext(DataContext).addProductToCart;
 
     function add(){
-        let prodForCart = {...props.data,quantity: quantity};
+        let prodForCart = {...props.data, quantity: quantity};
         
         addProductToCart(prodForCart);
     }

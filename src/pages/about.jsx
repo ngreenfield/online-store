@@ -18,7 +18,7 @@ function About(){
             {showEmail
              ? <h5>nagreenfield@yahoo.com</h5> : null}
            
-            <button onClick={showInfo} className='btn btn-sm btn-danger'>
+            <button onClick={showInfo} className='btn btn-sm btn-outline-dark'>
                 {
                     showEmail
                         ? "Hide my email"
