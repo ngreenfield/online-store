@@ -58,13 +58,11 @@
     border-bottom: 2px solid rgb(44, 90, 51);
 }
 
-/* Product header - aligns with image + title */
 .cart .cart-headers .product-header {
     flex: 3;
-    padding-left: 207px; /* Width of image (200px) + left padding (7px) */
+    padding-left: 207px; 
 }
 
-/* Price, Quantity and Total headers */
 .cart .cart-headers .price-header,
 .cart .cart-headers .quantity-header,
 .cart .cart-headers .total-header {
