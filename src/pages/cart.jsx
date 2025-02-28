@@ -58,6 +58,8 @@ function Cart(){
                     <h5>${getTotal()}</h5>
 
                     <button className='btn btn-primary'>Proceed to Checkout</button>
+                    <br />
+                    <button className='btn btn-outline-danger'>Clear Cart</button>
                 </div>
             </div>
         </div>

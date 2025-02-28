@@ -1,5 +1,7 @@
 import "./catalog.css";
 import Product from "../components/product";
+import { useEffect, useState } from "react";
+import DataService from "../services/dataService";
 
 const catalog = [
     {
@@ -70,6 +72,17 @@ const catalog = [
 const categories = ["Fruits", "Vegetables", "Beverages", "Bread"]
 
 function Catalog(){
+    const [allProducts, setAllProducts] = useState([])
+
+    async function loadProducts(){
+        const data = await DataService.getProducts();
+        setAllProducts(data);
+    }
+
+    useEffect(function(){
+        loadProducts();
+    }, []);
+
     return(
         <div className="catalog page">
             <h1>Check out our fresh produce!</h1>
@@ -78,7 +91,7 @@ function Catalog(){
             { categories.map(cat => <button key={cat} className="btn btn-sm btn-danger">{cat}</button>)}
             </div>
 
-            { catalog.map(prod => <Product key={prod.id} data={prod}/>)}
+            {allProducts.map(prod => <Product key={prod.id} data={prod}/>)}
         </div>
     );
 }
